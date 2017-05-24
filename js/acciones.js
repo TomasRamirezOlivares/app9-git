@@ -24,7 +24,7 @@
 		 maximumAge: 3600000
 	 }
 	 
-	 var watchID =navigator.geolocation.getCurrentPosition(onSuccess, onError, options);
+	 var watchID= navigator.geolocation.getCurrentPosition(onSuccess, onError, options);
 	   
 	function onSuccess(Position){
 		 
